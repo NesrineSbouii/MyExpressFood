@@ -155,5 +155,5 @@ export const sample_tags:Tag[] = [
   { name: 'Main Dishes', count: 4 },
   { name: 'Drinks', count: 2 },
   { name: 'Desserts', count: 3 }
-  
 ]
+

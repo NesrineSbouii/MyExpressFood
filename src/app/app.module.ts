@@ -14,6 +14,8 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
 import { LoginComponent } from './components/pages/login/login.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 registerLocaleData(localeFr);
 @NgModule({
   declarations: [
@@ -28,7 +30,13 @@ registerLocaleData(localeFr);
     NotFoundComponent,
     LoginComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RatingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RatingModule,
+    ReactiveFormsModule,
+    FormsModule,
+  ],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
   bootstrap: [AppComponent],
 })
