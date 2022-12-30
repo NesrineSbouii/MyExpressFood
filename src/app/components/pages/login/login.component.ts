@@ -32,4 +32,9 @@ export class LoginComponent {
       this.router.navigate(['']);
     }
   }
+  navigateToHomeRegister() {
+    
+      this.router.navigate(['']);
+    
+  }
 }
