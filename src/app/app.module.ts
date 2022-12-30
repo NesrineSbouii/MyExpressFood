@@ -13,6 +13,7 @@ import { TitleComponent } from './components/partials/title/title.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
+import { LoginComponent } from './components/pages/login/login.component';
 registerLocaleData(localeFr);
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ registerLocaleData(localeFr);
     CartPageComponent,
     TitleComponent,
     NotFoundComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RatingModule],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
