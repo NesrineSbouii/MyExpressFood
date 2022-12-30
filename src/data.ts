@@ -11,7 +11,7 @@ export const sample_foods: Food[] = [
     origins: ['italy'],
     stars: 4.5,
     imageUrl: 'assets/istockphoto-.jpg',
-    tags: ['Starter'],
+    tags: ['Starters'],
   },
   {
     id:'2',
@@ -22,7 +22,7 @@ export const sample_foods: Food[] = [
     origins: ['persia', 'middle east', 'china'],
     stars: 4.7,
     imageUrl: 'assets/food-2.jpg',
-    tags: ['main dishes'],
+    tags: ['Main Dishes'],
   },
   {
     id:'3',
@@ -33,7 +33,7 @@ export const sample_foods: Food[] = [
     origins: ['France'],
     stars: 3.5,
     imageUrl: 'assets/idee-menu-de-Noel-entree-plat-dessert-2.jpg',
-    tags: ['Starter'],
+    tags: ['Starters'],
   },
   {
     id:'4',
@@ -44,7 +44,7 @@ export const sample_foods: Food[] = [
     origins: ['belgium', 'france'],
     stars: 3.3,
     imageUrl: 'assets/foie-gras.webp',
-    tags: ['Starter'],
+    tags: ['Starters'],
   },
   {
     id:'5',
@@ -55,7 +55,7 @@ export const sample_foods: Food[] = [
     origins: ['india', 'asia'],
     stars: 3.0,
     imageUrl: 'assets/soupe-entree.jpg',
-    tags: ['Starter'],
+    tags: ['Starters'],
   },
   {
     id:'6',
@@ -66,7 +66,7 @@ export const sample_foods: Food[] = [
     origins: ['italy'],
     stars: 4.0,
     imageUrl: 'assets/food-6.jpg',
-    tags: ['main dishes'],
+    tags: ['Main Dishes'],
   },
   {
     id:'7',
@@ -77,7 +77,7 @@ export const sample_foods: Food[] = [
     origins: ['Indian'],
     stars: 4.0,
     imageUrl: 'assets/food-7.jpg',
-    tags: ['main dishes'],
+    tags: ['Main Dishes'],
   },
   {
     id:'8',
@@ -88,25 +88,72 @@ export const sample_foods: Food[] = [
     origins: ['indian'],
     stars: 4.0,
     imageUrl: 'assets/food-8.jpg',
-    tags: ['main dishes'],
+    tags: ['Main Dishes'],
+  },
+  {
+    id:'9',
+    name: 'Mojito',
+    price: 9,
+    cookTime: '45-50',
+    favorite: false,
+    origins: ['mexico'],
+    stars: 4.0,
+    imageUrl: 'assets/drinksmojito.jpg',
+    tags: ['Drinks'],
+  },
+  {
+    id:'10',
+    name: 'Hawaiian',
+    price: 9,
+    cookTime: '45-50',
+    favorite: false,
+    origins: ['mexico'],
+    stars: 4.0,
+    imageUrl: 'assets/drinks-hawaiian.jpg',
+    tags: ['Drinks'],
+  },
+  {
+    id:'11',
+    name: 'Cheese Cake',
+    price: 9,
+    cookTime: '45-50',
+    favorite: false,
+    origins: ['italy'],
+    stars: 4.0,
+    imageUrl: 'assets/cheese cake.jpg',
+    tags: ['Desserts'],
+  },
+  {
+    id:'12',
+    name: 'Entremets Chocolat Noir',
+    price: 9,
+    cookTime: '45-50',
+    favorite: false,
+    origins: ['italy'],
+    stars: 4.0,
+    imageUrl: 'assets/dessert-entremets-chocolat-noir-fruits-exotiques_0.jpg',
+    tags: ['Desserts'],
+  },
+  {
+    id:'13',
+    name: 'Dessert ',
+    price: 9,
+    cookTime: '45-50',
+    favorite: false,
+    origins: ['France'],
+    stars: 4.0,
+    imageUrl: 'assets/dessert.webp',
+    tags: ['Desserts'],
   },
 ]
 
-// export const sample_tags:Tag[] = [
-//   { name: 'All', count: 8 },
-//   { name: 'Starter', count: 4 },
-//   { name: 'Pizza', count: 3 },
-//   { name: 'Lunch', count: 3 },
-//   { name: 'SlowFood', count: 2 },
-//   { name: 'Hamburger', count: 2 },
-//   { name: 'Fry', count: 1 },
-//   { name: 'Soup', count: 1 },
-// ]
+
 
 export const sample_tags:Tag[] = [
-  { name: 'All', count: 8 },
-  { name: 'Starter', count: 4 },
-  { name: 'main dishes', count: 3 },
-  { name: 'drinks', count: 3 },
+  { name: 'All', count: 13 },
+  { name: 'Starters', count: 4 },
+  { name: 'Main Dishes', count: 4 },
+  { name: 'Drinks', count: 2 },
+  { name: 'Desserts', count: 3 }
   
 ]
